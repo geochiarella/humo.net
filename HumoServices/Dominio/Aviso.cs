@@ -12,6 +12,6 @@ namespace HumoServices.Dominio
         [DataMember]
         public int Codigo { get; set; }
         [DataMember]
-        public string Mensaje { get; set; } 
+        public string Mensaje { get; set; }
     }
 }
