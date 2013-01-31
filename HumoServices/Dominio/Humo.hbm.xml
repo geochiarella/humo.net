@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="HumoServices"
+                   namespace="HumoServices.Dominio"
+                   default-lazy="false">
+    <class name="Humo" table="tab_humo">
+        <id name="Codigo" column="codigo">
+            <generator class="increment"/>
+        </id>
+        <property name="Marca" column="marca" />
+        <property name="Cantidad" column="cantidad" />
+        <many-to-one name="Tipo" column="tipo"/>
+    </class>
+</hibernate-mapping>

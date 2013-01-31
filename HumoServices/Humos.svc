@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="HumoServices.Humos" CodeBehind="Humos.svc.cs" %>
